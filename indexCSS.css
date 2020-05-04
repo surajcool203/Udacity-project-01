@@ -1,0 +1,95 @@
+.heading {
+  display:flex;
+  justify-content: space-evenly;
+  text-align:center;
+  padding:20px;
+  text-align: center;
+  
+  text-decoration: underline;
+}
+.heads input[type=text] {
+  float: right;
+  padding: 10px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;s
+  
+}
+#search{
+  align-items:right;
+  text-align: right;
+}
+
+#subs
+{
+  padding-top: 30px;
+}
+#potter{
+  font-size: 30px;
+}
+.inside {
+  line-height: .3;
+}
+
+.row {
+  height:50%;
+  width:50%;
+  text-align: justify;
+  border: 5px solid #D3D3D3;
+  margin-left: 20px;
+  padding:20px;
+  
+}
+.firstcontainer {  
+      display:flex;       
+      padding-left :40px;     
+      padding-right: 40px;   
+      padding-bottom:30px;     
+      justify-content: space-evenly;       
+      margin-left:60px;        
+      margin-right: 60px;     
+      align-items: stretch;         
+      flex-direction: row;
+    
+  }
+  .secondcontainer {
+      
+      display:flex;       
+      padding-left :40px;     
+      padding-right: 40px;   
+      padding-bottom:30px;     
+      justify-content: space-evenly;       
+      margin-left:60px;        
+      margin-right: 60px;     
+      align-items: stretch;         
+      flex-direction: row;
+
+  }
+  .thirdcontainer {
+
+    display:flex;       
+    padding-left :40px;     
+    padding-right: 40px;   
+    padding-bottom:30px;     
+    justify-content: space-evenly;       
+    margin-left:60px;        
+    margin-right: 60px;     
+    align-items: stretch;         
+    flex-direction: row;
+  }
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8ff;
+    color: 	#C0C0C0;
+    text-align: center;
+  }
+  #foot {
+     margin-top: 20px;
+     padding-top:20px;
+  }
+  #footed {
+    padding-bottom: 25px;
+  }

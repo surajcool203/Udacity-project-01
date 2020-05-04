@@ -1,0 +1,117 @@
+.heading {
+    display:flex;
+    justify-content: space-evenly;
+    text-align:center;
+    padding:20px;
+    float:center;
+    text-align: center;
+    
+    text-decoration: underline;
+  }
+ #subs {
+     padding-top:25px;
+ }
+ .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f8f8ff;
+    color: 	#C0C0C0;
+    text-align: center;
+  }
+  #foot {
+     margin-top: 20px;
+     padding-top:20px;
+  }
+  #footed {
+    padding-bottom: 25px;
+  }
+  .seperate {
+      line-height: 0.2;
+  }
+  #del {
+    color: grey;
+  }
+  .examplecodeblock {
+      border:1px solid;
+      padding-top:0;
+      padding-left:10px;
+      height: relative;
+      line-height: .09;
+
+  }
+  #archi {
+      line-height:0.9;
+  }
+  .about {
+      border: 1px inset #4444 ;
+      padding:20px;
+      background-color: #f8f8ff;
+      font-size: auto;
+     
+
+  }
+  .container {
+      display: grid;
+      padding: 45px;
+      margin:10px;
+      grid-template-columns: 65% 1fr;
+      grid-template-rows: 15% 20% 20% ;
+      grid-gap:25px;
+      height:50%
+      width:90%;
+      margin-top:15px;
+      
+  }
+ .archives {
+     border: 1px;
+     padding:25px;
+     padding-top:10px;
+     grid-row:2/3;
+     grid-column: 2;
+ }
+  .beginning {
+      grid-column: 1;
+      line-height:1.5;
+  }
+  .elsewhere {
+      grid-column:2;
+      grid-row:3/4;
+      border:1px;
+      padding:25px;
+      padding-top: 50px;
+  }
+  .tailing {
+      line-height: 1.5;;
+  }
+  .examplecodeblock {
+      line-height: 1.5;
+  }
+  @media (max-width: 700px) {
+   
+  
+    h1.simplesample{
+      font-size: 20px !important;
+      
+    }
+    p#del {
+        font-size: 10px;
+        color: grey;
+
+    }
+
+    .about{
+        padding:30px !important;
+        font-size: 10px !important;
+
+        
+        
+  }
+  .beginnng {
+      padding-left: 10px !important;
+      
+      
+  }
+  }
+  
