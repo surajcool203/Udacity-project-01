@@ -1,0 +1,21 @@
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    /* border: 20px; */
+    border-radius: 50%;
+    margin-top: ;
+
+  }
+.containersome {
+    
+    margin-left: 250px;
+    margin-right: 200px;
+    margin-top: 200px;
+    text-align: center;
+    padding: 25px 50px 25px;
+    
+    border-radius:8% ;
+    }
+

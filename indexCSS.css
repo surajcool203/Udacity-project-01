@@ -1,9 +1,7 @@
 .heading {
-  display:flex;
-  justify-content: space-evenly;
-  text-align:center;
-  padding:20px;
-  text-align: center;
+
+ 
+  
   
   text-decoration: underline;
 }
@@ -16,7 +14,7 @@
   
 }
 #search{
-  align-items:right;
+  text-align:center;
   text-align: right;
 }
 
@@ -25,7 +23,12 @@
   padding-top: 30px;
 }
 #potter{
+  align-items: center;
   font-size: 30px;
+  justify-content: space-evenly;
+  text-align:center;
+  padding:20px;
+  text-align: center;
 }
 .inside {
   line-height: .3;
@@ -40,33 +43,7 @@
   padding:20px;
   
 }
-.firstcontainer {  
-      display:flex;       
-      padding-left :40px;     
-      padding-right: 40px;   
-      padding-bottom:30px;     
-      justify-content: space-evenly;       
-      margin-left:60px;        
-      margin-right: 60px;     
-      align-items: stretch;         
-      flex-direction: row;
-    
-  }
-  .secondcontainer {
-      
-      display:flex;       
-      padding-left :40px;     
-      padding-right: 40px;   
-      padding-bottom:30px;     
-      justify-content: space-evenly;       
-      margin-left:60px;        
-      margin-right: 60px;     
-      align-items: stretch;         
-      flex-direction: row;
-
-  }
-  .thirdcontainer {
-
+.container {  
     display:flex;       
     padding-left :40px;     
     padding-right: 40px;   
@@ -76,8 +53,11 @@
     margin-right: 60px;     
     align-items: stretch;         
     flex-direction: row;
+    
   }
-  .footer {
+  
+
+.footer {
     position: relative;
     left: 0;
     bottom: 0;
@@ -85,11 +65,74 @@
     background-color: #f8f8ff;
     color: 	#C0C0C0;
     text-align: center;
+  }  
+#foot {
+    margin-top: 20px;
+    padding-top:20px;
   }
-  #foot {
-     margin-top: 20px;
-     padding-top:20px;
+#footed {
+  padding-bottom: 25px;
+ }
+#styling {
+    font-height:0.8 ;
   }
-  #footed {
-    padding-bottom: 25px;
+#colouring {
+    color:grey;
   }
+#world1 {
+   color:blue;
+
+  }
+#world2 {
+    color:coral;
+  }
+@media (max-width: 800px) {
+    #boss {
+      font-size: 10px !important;
+    }
+    h1.heads#potter {
+      font-size: 20px;
+      text-align: center;
+     
+    }
+    #subs {
+      font-size: 10px;
+    }
+   
+    .container {
+      display: grid;
+      padding: 15px;
+      align-items: center;
+      margin:10px;
+      grid-template-columns: 100%;
+      grid-template-rows:  auto;
+      grid-gap:10px;
+      height:90%;
+      width:90%;
+      margin-top:15px;
+    }
+    .row {
+      height:80%;
+      width:80%;
+      text-align: justify;
+      border: 5px solid #D3D3D3;
+      margin: 5px;
+      padding:10px;
+      font-size: 5px;
+      
+      padding-top: 0;
+      
+    }
+    .footer {
+      font-size: 10px;
+    }
+    .inside {
+      font-size: 3.2px;
+    }
+  
+  }
+
+
+   
+  
+   
