@@ -1,16 +1,12 @@
 .heading {
-
- 
-  
-  
-  text-decoration: underline;
+ text-decoration: underline;
 }
 .heads input[type=text] {
   float: right;
   padding: 10px;
   border: none;
   margin-top: 8px;
-  margin-right: 16px;s
+  margin-right: 16px;
   
 }
 #search{
